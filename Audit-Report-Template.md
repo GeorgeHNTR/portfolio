@@ -17,7 +17,7 @@ as possible. Audits can show the presence of vulnerabilities **but not their abs
 | :----------------- | :----------: | :------------: | :-----------: |
 | Likelihood: High   |   Critical   |      High      |    Medium     |
 | Likelihood: Medium |     High     |     Medium     |      Low      |
-| Likelihood: Low    |    Medium    |      Low       | Informational |
+| Likelihood: Low    |    Medium    |      Low       |      Low      |
 
 ### Impact
 
