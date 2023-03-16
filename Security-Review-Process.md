@@ -22,8 +22,8 @@ After the agreed-upon time has passed, the project will receive the security rev
 ## Other Questions
 
 1. What is your preferred communication channel (Discord, Twitter, Telegram)?
-2. Are you okay with us publishing the security review report after you apply fixes?
-3. Are you okay with us being transparent with our work, findings and payment?
+2. Are you okay with me publishing the security review report after you apply fixes?
+3. Are you okay with me being transparent with our work, findings and payment?
 
 ## Disclaimer
 
