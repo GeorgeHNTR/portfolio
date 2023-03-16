@@ -1,6 +1,6 @@
 # \<<project name\>> Security Review
 
-A security review of the [\<<project name\>>](\<<project site or github link\>>) smart contract protocol was done by [Gogo](https://twitter.com/onfroygogo). \
+A security review of the [\<<project name\>>](\<<project site or github link\>>) smart contract protocol was done by [Gogo](https://twitter.com/gogotheauditor). \
 This audit report includes all the vulnerabilities, issues and code improvements found during the security review.
 
 ## Disclaimer
