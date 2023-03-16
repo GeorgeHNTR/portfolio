@@ -1,6 +1,6 @@
 # Metalabel V1_1 Security Review
 
-A security review of the [Metalabel](https://www.metalabel.xyz/) smart contract protocol was done by [Gogo](https://twitter.com/gogoauditor). \
+A security review of the [Metalabel](https://www.metalabel.xyz/) smart contract protocol was done by [Gogo](https://twitter.com/gogotheauditor). \
 This audit report includes all the vulnerabilities, issues and code improvements found during the security review.
 
 ## Disclaimer
