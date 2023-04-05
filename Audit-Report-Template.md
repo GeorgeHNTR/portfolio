@@ -13,11 +13,11 @@ as possible. Audits can show the presence of vulnerabilities **but not their abs
 
 ## Risk classification
 
-| Severity           | Impact: High | Impact: Medium |  Impact: Low  |
-| :----------------- | :----------: | :------------: | :-----------: |
-| Likelihood: High   |   Critical   |      High      |    Medium     |
-| Likelihood: Medium |     High     |     Medium     |      Low      |
-| Likelihood: Low    |    Medium    |      Low       |      Low      |
+| Severity           | Impact: High | Impact: Medium | Impact: Low |
+| :----------------- | :----------: | :------------: | :---------: |
+| Likelihood: High   |   Critical   |      High      |   Medium    |
+| Likelihood: Medium |     High     |     Medium     |     Low     |
+| Likelihood: Low    |    Medium    |      Low       |     Low     |
 
 ### Impact
 
@@ -80,6 +80,14 @@ as possible. Audits can show the presence of vulnerabilities **but not their abs
 | _Total (\<<the total number of files in scope\>>)_                                                      | \<<total number of sloc in scope\>> |
 
 # Findings
+
+| ID                                         | Title                                    | Severity      |
+| ------------------------------------------ | :--------------------------------------- | :------------ |
+| [\<<index of critical severity finding\>>] | \<<title of critical severity finding\>> | Critical      |
+| [\<<index of high severity finding\>>]     | \<<title of high severity finding\>>     | High          |
+| [\<<index of medium severity finding\>>]   | \<<title of medium severity finding\>>   | Medium        |
+| [\<<index of low severity finding\>>]      | \<<title of low severity finding\>>      | Low           |
+| [\<<index of informational finding\>>]     | \<<title of informational finding\>>     | Informational |
 
 ## Critical severity
 

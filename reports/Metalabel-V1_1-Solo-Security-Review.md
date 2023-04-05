@@ -1,4 +1,4 @@
-# Metalabel V1_1 Security Review
+# Metalabel V1_1 Solo Security Review
 
 A security review of the [Metalabel](https://www.metalabel.xyz/) smart contract protocol was done by [Gogo](https://twitter.com/gogotheauditor). \
 This audit report includes all the vulnerabilities, issues and code improvements found during the security review.
@@ -13,11 +13,11 @@ as possible. Audits can show the presence of vulnerabilities **but not their abs
 
 ## Risk classification
 
-| Severity           | Impact: High | Impact: Medium |  Impact: Low  |
-| :----------------- | :----------: | :------------: | :-----------: |
-| Likelihood: High   |   Critical   |      High      |    Medium     |
-| Likelihood: Medium |     High     |     Medium     |      Low      |
-| Likelihood: Low    |    Medium    |      Low       |      Low      |
+| Severity           | Impact: High | Impact: Medium | Impact: Low |
+| :----------------- | :----------: | :------------: | :---------: |
+| Likelihood: High   |   Critical   |      High      |   Medium    |
+| Likelihood: Medium |     High     |     Medium     |     Low     |
+| Likelihood: Low    |    Medium    |      Low       |     Low     |
 
 ### Impact
 
@@ -42,13 +42,13 @@ as possible. Audits can show the presence of vulnerabilities **but not their abs
 
 ### Overview
 
-|               | |
-| :------------ | :-
-| Project Name  | Metalabel
-| Repository    | https://github.com/metalabel/metalabel-contracts-v1_1
-| Commit hash   | [fb04291dfdf7114bbec12ef5ec30b4135eac4878](https://github.com/metalabel/metalabel-contracts-v1_1/commit/fb04291dfdf7114bbec12ef5ec30b4135eac4878)
-| Documentation | [link](https://metalabel.notion.site/Metalabel-Protocol-Walkthrough-V1-1-Addendum-3e18e13a1ccc48d68e777956a20279c6)
-| Methods       | Manual review
+|               |                                                                                                                                                   |
+| :------------ | :------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Project Name  | Metalabel                                                                                                                                         |
+| Repository    | https://github.com/metalabel/metalabel-contracts-v1_1                                                                                             |
+| Commit hash   | [fb04291dfdf7114bbec12ef5ec30b4135eac4878](https://github.com/metalabel/metalabel-contracts-v1_1/commit/fb04291dfdf7114bbec12ef5ec30b4135eac4878) |
+| Documentation | [link](https://metalabel.notion.site/Metalabel-Protocol-Walkthrough-V1-1-Addendum-3e18e13a1ccc48d68e777956a20279c6)                               |
+| Methods       | Manual review                                                                                                                                     |
 |               |
 
 ### Issues found
