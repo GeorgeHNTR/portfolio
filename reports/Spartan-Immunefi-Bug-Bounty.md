@@ -10,6 +10,10 @@
 
 https://bscscan.com/address/0x80531284f27d8b479aCA8dbA18fD6303B4bF1567#code
 
+### Status
+
+<img width="546" alt="image" src="https://user-images.githubusercontent.com/94860638/233742405-4ec86f0a-0651-4449-83d9-79d25454d383.png">
+
 ## Description
 
 ### Bug Description
@@ -130,45 +134,3 @@ https://bscscan.com/address/0x80531284f27d8b479aCA8dbA18fD6303B4bF1567?utm_sourc
 ```
 
 https://bscscan.com/address/0x80531284f27d8b479aCA8dbA18fD6303B4bF1567?utm_source=immunefi#code#L669
-
-# Immunefi mediation response
-
-## MEDIATION SUMMARY
-
-- **Requestor**: Whitehat
-
-- **Reason for Mediation request**: I disagree with the resolution
-
-- **Report Type**: Smart Contract
-
-- **Reported Severity**: Critical
-
-- **Are Whitehat’s Claims Technically Valid?** Yes
-
-- **Is the POC valid?** PoC should be in the form of exploit code (e.g. a test script), not step by step actions
-
-- **Assessed Impact**: Critical (any governance voting result manipulation)
-
-- **Funds at Risk**: No funds at risk. However, to take funds from Reserve the protocol has to resort to privileged addresses
-
-- **Likelihood of Exploit?** Very likely to happen. Extremely easy to do.
-
-- **Recommended payout based on the terms of Bug Bounty Program**: Full Critical severity payout.
-
-@Whitehat @Project,
-
-Thank you for your patience. As requested by the Whitehat, Immunefi has completed its mediation process. Thank you for reaching out and for your patience while we completed a thorough technical review of this mediation request.
-
-**Our finding is that this submission is indeed a valid bug report with a Critical vulnerability.**
-
-## TECHNICAL ASSESSMENT:
-
-- Whitehat reported a vulnerability where anyone can cancel proposals before finalizing, rendering the governance mechanism completely useless.
-- The whitehat is correct that, due to cancelPeriod being permission-less, and cancel time being less than the finalizing time, this enables an attacker to always frontrun and cancel proposals before any being final.
-- The project states that contracts and functionality are deprecated, but they are in the published bug bounty at the time of submission of this report, so Spartan Protocol should pay according to the project's own published rules in this bug bounty program.
-
-**@Spartan Protocol**, as the next step, please review the assessment above and initiate the process of rewarding this whitehat for this valid submission.
-
-Thank you,
-
-The Immunefi team
