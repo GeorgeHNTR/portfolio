@@ -1,15 +1,22 @@
-# Gogo's smart contract security reviews - audit reports and findings
+# Gogo's smart contract security reviews
 
-This repository represents my portfolio of public smart contract security audits and audit contest findings.
+This repository represents my portfolio of smart contract security audits and bug bounty findings.
 
-## Solo Audits
+## Audits
 
-- [Metalabel - ERC721 collection releasing](https://github.com/gogotheauditor/audits/blob/main/solo/Metalabel-Security-Review.md)
-- [Metalabel - ERC721 collection releasing, v1.1](https://github.com/gogotheauditor/audits/blob/main/solo/Metalabel-V1_1-Security-Review.md)
+- [Metalabel - ERC721 Collection Releasing](./reports/Metalabel-Solo-Security-Review.md)
+- [Metalabel - ERC721 Collection Releasing, V1.1](./reports/Metalabel-V1_1-Solo-Security-Review.md)
+- Aelin - Fundraising
+- WINR - Staking & Currency Migration
+- DreamFinance - Initial Coin Offering
+- [Yield - Variable Rate Lending & Borrowing](./reports/Yield-VR-Solo-Security-Review.md)
+- Aori - Decentralized Options Exchange
+- SmarDex - AMM & Staking
+- AvalaunchNFT - NFT Marketplace & Auction
 
-## Security Review Process
+## Bug bounty
 
-Check out the security review process description [here](https://github.com/gogotheauditor/audits/blob/main/Security-Review-Process.md).
+- [Spartan Protocol - Governance Voting Result Manipulation](./reports/Spartan-Immunefi-Bug-Bounty.md)
 
 ## Contacts
 
