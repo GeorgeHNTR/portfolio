@@ -10,15 +10,15 @@ This repository represents my portfolio of public smart contract security audits
 - Avalaunch - NFT Marketplace & Auction
 - Dream Finance - Governance Token ICO
 - Dragon Crypto Gaming - Triple Rewards Dividend Vault
-- Ghast Protocol - Lending / Borrowing & Staking
+- Ghast Protocol - Lending, Borrowing & Staking
 - Key Finance - Rewards Distribution Contract
 - Key Finance - Orderbook & Staking Rewards
-- [Metalabel - ERC721 Collections Releasing](./reports/Metalabel-Solo-Security-Review.md)
-- [Metalabel - ERC721 Collections Releasing, V1.1](./reports/Metalabel-V1_1-Solo-Security-Review.md)
-- PariFi - Perpetuals Exchange
-- PartyDAO
+- [Metalabel - NFT Collections Releasing](./reports/Metalabel-Solo-Security-Review.md)
+- [Metalabel - NFT Collections Releasing, V1.1](./reports/Metalabel-V1_1-Solo-Security-Review.md)
+- PariFi - Perpetuals
+- [PartyDAO - Governance Proposals & Bug Fix Review](./reports/PartyDAO-Solo-Security-Review.pdf)
 - Radiate Protocol - Custom Yield Farm
-- Schwap - OTC DEX & Staking
+- Schwap - Orderbook & Staking
 - SmarDex - AMM & Yield Farm
 - Trader Joe - Staking
 - [Vinci - Staking & ERC20 Token](./reports/Vinci-Solo-Security-Review.pdf)
@@ -27,7 +27,7 @@ This repository represents my portfolio of public smart contract security audits
 ## Bug bounty
 
 - [Spartan Protocol - Governance Voting Result Manipulation](./reports/Spartan-Immunefi-Bug-Bounty.md)
-- PartyDAO - Auction Denial Of Service
+- PartyDAO - Denial Of Service
 
 ## Contacts
 
