@@ -17,6 +17,7 @@ This repository represents my portfolio of public smart contract security audits
 - [Metalabel - NFT Collections Releasing, V1.1](./reports/Metalabel-V1_1-Solo-Security-Review.md)
 - PariFi - Perpetuals
 - [PartyDAO - Governance Proposals & Bug Fix Review](./reports/PartyDAO-Solo-Security-Review.pdf)
+- Project TXA - Cross-Chain Trading
 - Radiate Protocol - Custom Yield Farm
 - Schwap - Orderbook & Staking
 - SmarDex - AMM & Yield Farm
