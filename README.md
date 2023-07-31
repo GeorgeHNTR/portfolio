@@ -8,6 +8,7 @@ This repository represents my portfolio of public smart contract security audits
 - Aori - Fully Collateralized Options Trading
 - [Aelin - Fundraising](./reports/Aelin-Sub7-Security-Review.pdf)
 - Avalaunch - NFT Marketplace & Auction
+- BeraMarket - NFT
 - Dream Finance - Governance Token ICO
 - Dragon Crypto Gaming - Triple Rewards Dividend Vault
 - Ghast Protocol - Lending, Borrowing & Staking
