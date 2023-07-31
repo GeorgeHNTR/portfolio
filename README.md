@@ -7,6 +7,7 @@ This repository represents my portfolio of public smart contract security audits
 - Aori - Options Margin Trading
 - Aori - Fully Collateralized Options Trading
 - [Aelin - Fundraising](./reports/Aelin-Sub7-Security-Review.pdf)
+- [Aelin - Fundraising, second review]([./reports/Aelin-Sub7-Security-Review.pdf](https://uploads-ssl.webflow.com/63b5d732b556edbb2dc3cc38/64b003cf36f61aeb5d93700b_SUB7_REPORT_AELIP-50-52_20230627%20(6).pdf))
 - Avalaunch - NFT Marketplace & Auction
 - BeraMarket - NFT
 - Dream Finance - Governance Token ICO
