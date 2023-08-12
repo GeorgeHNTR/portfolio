@@ -12,7 +12,7 @@ Some of my public security audits, reviews and contributions will be shared here
 - [Key Finance - Orderbook & Staking Rewards](./reports/Key-Finance-Security-Review-2.pdf)
 - [Dragon Crypto Gaming - Triple Rewards Dividend Vault](https://paladinsec.co/projects/dragon-crypto-gaming-aurum/)
 - [Radiate Protocol - Custom Yield Farm](https://paladinsec.co/projects/radiate-protocol)
-- [PartyDAO - Governance Proposals](./PartyDAO-Security-Review.pdf)
+- [PartyDAO - Governance Proposals](./reports/PartyDAO-Security-Review.pdf)
 - [PariFi - Perpetuals & Relayer](https://github.com/GuardianAudits/DefenderAudits/blob/main/PariFi/TeamSolo_PariFiAudit.md)
 
 ### June 2023
