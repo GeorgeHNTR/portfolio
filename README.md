@@ -5,6 +5,7 @@ Some of my public security audits, reviews and contributions will be shared here
 ### August 2023
 
 - Project TXA - Cross-Chain Orders Settlement
+- Lofi Pepe - NFT Staking
 - Bera Market - NFT
 
 ### July 2023
