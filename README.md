@@ -4,7 +4,7 @@ Some of my public security audits, reviews and contributions will be shared here
 
 ### August 2023
 
-- Project TXA - Cross-Chain Orders Settlement
+- [Project TXA - Cross-Chain Orders Settlement](./reports/Project-TXA-Preliminary-Audit-Report-08.17.23.pdf)
 - Lofi Pepe - NFT Staking
 - Bera Market - NFT
 
