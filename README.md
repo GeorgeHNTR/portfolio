@@ -6,7 +6,7 @@
 
 - [Project TXA - Cross-Chain Orders Settlement](./reports/Project-TXA-Security-Review.pdf)
 - Lofi Pepe - NFT Staking
-- Bera Market - NFT lending & borrowing
+- [Bera Market - NFT lending & borrowing](./reports/NTLC-Security-Review.pdf)
 - Radiate Protocol - Custom Yield Farm, second review
 
 ### July 2023
