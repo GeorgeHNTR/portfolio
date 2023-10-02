@@ -2,6 +2,10 @@
 
 ## Engagements
 
+### September 2023
+
+- [Rogue Finance - Liquidity Engine](./reports/Rogue-Finance-Security-Review.pdf)
+
 ### August 2023
 
 - [Project TXA - Cross-Chain Orders Settlement](./reports/Project-TXA-Security-Review.pdf)
