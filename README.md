@@ -2,8 +2,14 @@
 
 ## Engagements
 
+### October 2023
+
+- Kreatorhood - NFT Marketplace
+- Kreatorhood - Token Vesting
+
 ### September 2023
 
+- Arbor - Marketplace, Staking & Wallet
 - [Rogue Finance - Liquidity Engine](./reports/Rogue-Finance-Security-Review.pdf)
 
 ### August 2023
