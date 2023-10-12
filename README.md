@@ -57,8 +57,8 @@
 
 ### February 2023
 
-- [Metalabel - NFT Collections Releasing](./reports/Metalabel-Solo-Security-Review.md)
-- [Metalabel - NFT Collections Releasing, V1.1](./reports/Metalabel-V1_1-Solo-Security-Review.md)
+- [Metalabel - NFT Collections Releasing](./reports/Metalabel-Security-Review.md)
+- [Metalabel - NFT Collections Releasing, V1.1](./reports/Metalabel-V1_1-Security-Review.md)
 
 ## Bug bounty
 
