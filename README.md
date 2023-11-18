@@ -88,19 +88,19 @@ If you are a founder or engineer looking to get your smart contract protocol aud
 What previous clients and fellow auditors say about my work:
 
 <p align="center">
-  <img src="https://github.com/gogotheauditor/audits-private/assets/94860638/c17dd255-f430-45bc-9734-23fb8bdfa2c2" width="250"/>
-  <img src="https://github.com/gogotheauditor/audits-private/assets/94860638/2465fed5-976d-4cbd-bd8f-e16e845f79e4" width="250"/>
-  <img src="https://github.com/gogotheauditor/audits-private/assets/94860638/016f3f5f-9d96-46e7-a848-c9efba164c31" width="250"/>
+  <img src="https://github.com/gogotheauditor/audits/assets/94860638/726ab05c-6254-4a86-8966-133761fe9fc8" width="250"/>
+  <img src="https://github.com/gogotheauditor/audits/assets/94860638/684cb2b7-0693-4ef1-9f10-56d667f63116" width="250"/>
+  <img src="https://github.com/gogotheauditor/audits/assets/94860638/211c04c9-50f8-40b1-a35c-9f3e9c159c24" width="250"/>
 </p>
 
 <p align="center">
-  <img src="https://github.com/gogotheauditor/audits-private/assets/94860638/7411ac9f-5062-4701-b6e8-e1f8e56563ef" width="250"/>
-  <img src="https://github.com/gogotheauditor/audits-private/assets/94860638/b42933c6-a75c-4d57-85f6-efcc9ff63e83" width="250"/>
-  <img src="https://github.com/gogotheauditor/audits-private/assets/94860638/94ee7f7c-4886-4f8e-9596-8e27819d6f9a" width="250"/>
+  <img src="https://github.com/gogotheauditor/audits/assets/94860638/70a3fc59-46d5-4d57-a91d-9f43028b8cb9" width="250"/>
+  <img src="https://github.com/gogotheauditor/audits/assets/94860638/27309d54-5a0c-428b-83d7-684d94ad60ae" width="250"/>
+  <img src="https://github.com/gogotheauditor/audits/assets/94860638/f3614327-229b-4252-ae98-e54530e20f1e" width="250"/>
 </p>
 
 <p align="center">
-  <img src="https://github.com/gogotheauditor/audits-private/assets/94860638/d2895815-4aac-43b1-8a92-f0853b5c92b3" width="250"/>
-  <img src="https://github.com/gogotheauditor/audits-private/assets/94860638/c16fd083-89e9-4037-bcaa-22ddb297dd82" width="250"/>
-  <img src="https://github.com/gogotheauditor/audits-private/assets/94860638/3d74bf95-e49d-434c-a5ba-54c0abd3595b" width="250"/>
+  <img src="https://github.com/gogotheauditor/audits/assets/94860638/e628122e-7956-49d8-aadf-a1e8e3aa483b" width="250"/>
+  <img src="https://github.com/gogotheauditor/audits/assets/94860638/a27942ce-a14b-4887-9041-cbacc6305ba0" width="250"/>
+  <img src="https://github.com/gogotheauditor/audits/assets/94860638/efb93d19-d7df-4619-bb12-ac4f37eae4e6" width="250"/>
 </p>
