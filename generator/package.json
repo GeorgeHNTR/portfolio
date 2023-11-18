@@ -1,0 +1,6 @@
+{
+  "author": "https://twitter.com/gogotheauditor",
+  "scripts": {
+    "start": "pandoc \"./report/report.md\" -o \"./report/report.pdf\" --from markdown --template \"./latex/eisvogel.tex\" --listings"
+  }
+}
