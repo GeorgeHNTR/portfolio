@@ -49,6 +49,7 @@ If you are a founder or engineer looking to get your smart contract protocol aud
 - [Ghast Protocol - Lending, Borrowing & Staking, second review](./reports/Ghast-Paladin-Security-Review.pdf)
 - [Schwap - Orderbook & Staking](./reports/Schwap-Duo-Security-Review.pdf)
 - [TraderJoe - Auto Pools](./reports/TraderJoe-Paladin-Security-Review.pdf)
+- [Aelin - Fundraising, second review](./reports/Aelin-Sub7-Security-Review-2.pdf)
 
 ### July 2023
 
