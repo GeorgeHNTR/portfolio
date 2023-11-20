@@ -6,9 +6,10 @@
  - [Book an audit](#book-an-audit)
  - [Engagements](#engagements)
  - [Bug bounty](#bug-bounty)
- - [Feedback](#feedback)
+ - [Testimonials](#testimonials)
  - [FAQ](./FAQ.md)
  - [Review Process](./Security-Review-Process.md)
+ - [Reports Generator](./generator)
 
 ## Introduction
 
@@ -85,7 +86,7 @@ If you are a founder or engineer looking to get your smart contract protocol aud
 - [Spartan Protocol - Governance Voting Result Manipulation (Critical Severity)](./reports/Spartan-Immunefi-Bug-Report.md)
 - PartyDAO - Denial Of Service (High Severity)
 
-## Feedback
+## Testimonials
 
 What previous clients and fellow auditors say about my work:
 
