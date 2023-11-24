@@ -1,5 +1,5 @@
 {
-  "author": "https://twitter.com/gogotheauditor",
+  "author": "https://twitter.com/georgehntr",
   "scripts": {
     "start": "pandoc \"./report/report.md\" -o \"./report/report.pdf\" --from markdown --template \"./latex/eisvogel.tex\" --listings"
   }

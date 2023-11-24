@@ -18,4 +18,4 @@ A simple script that allows security researchers to convert their audit report f
 
 ## Feature requests or issues
 
-If you experience any problems using the generator, feel free to open a GitHub [issue](https://github.com/gogotheauditor/audits/issues/new), [PR](https://github.com/gogotheauditor/audits/pulls) or DM the author at [@gogotheauditor](https://twitter.com/gogotheauditor).
+If you experience any problems using the generator, feel free to open a GitHub [issue](https://github.com/GeorgeHNTR/portfolio/issues/new), [PR](https://github.com/GeorgeHNTR/portfolio/pulls) or DM the author at [@GeorgeHNTR](https://twitter.com/GeorgeHNTR).

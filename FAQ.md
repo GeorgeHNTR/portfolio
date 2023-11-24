@@ -1,7 +1,7 @@
 # Frequently Asked Questions (FAQ)
 
 **Q:** What's your current rate? \
-**A:** ~$15,000 a week for a solo audit and $20-25,000 a week for a team audit with me (*@gogotheauditor*) as the lead auditor and 1 or 2 co-auditors.
+**A:** ~$15,000 a week for a solo security review and $20-25,000 a week for a team review with George as the lead auditor and 1 or 2 co-auditors.
 
 **Q:** What's your availability? \
 **A:** Normally booked 1-3 weeks in advance. However, we can start on demand for small projects seeking an ASAP start date.
