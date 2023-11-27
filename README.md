@@ -70,16 +70,26 @@ If you are a founder or engineer looking to get your smart contract protocol aud
 ### September 2023
 
 - [Rogue Finance - veMAV Wrapper](./reports/solo/Rogue-Finance-Security-Review.pdf)
+- Arbor - NFT Marketplace, Staking & Wallet
 
 ### October 2023
 
 - [LayerZero, USDV - Stablecoin](./reports/team/paladin/co/LayerZero-USDV-Security-Review.pdf)
 - [Kreatorhood - NFT Marketplace](./reports/solo/Kreatorhood-Security-Review.pdf)
 - [TitanX - Staking](./reports/solo/TitanX-Security-Review.pdf)
+- Legendary - Social Fi
 
 ### November 2023
 
 - [TitanX - Staking, second review](./reports/solo/TitanX-Security-Review-2.pdf)
+- BetBitX - Vaults
+- HyperCycle - ERC1155 Revenue Sharing
+- SmarDex - AMM & Yield Farm, second review
+
+### December 2023
+
+- Undisclosed protocol - Lottery
+- Kreatorhood - Vesting
 
 ## Bug bounty
 
