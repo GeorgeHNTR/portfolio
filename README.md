@@ -13,7 +13,7 @@
 
 ## Introduction
 
-George Hunter is an independent security researcher experienced in Solidity smart contract auditing and bug hunting. Having conducted over 40 solo and team smart contract security reviews, he consistently strives to provide top-quality security auditing services. He also serves as a smart contract auditor at Paladin Blockchain Security, where he has been involved in security audits for notable clients such as **LayerZero**, **TraderJoe**, **SmarDex**, and other leading protocols.
+George Hunter is an independent security researcher experienced in Solidity smart contract auditing and bug hunting. Having conducted over 40 solo and team smart contract security reviews, he consistently strives to provide top-quality security auditing services. He also serves as a lead smart contract auditor at Paladin Blockchain Security, where he has been involved in security audits for notable clients such as **LayerZero**, **TraderJoe**, **SmarDex**, and other leading protocols.
 
 ## Book an audit
 
