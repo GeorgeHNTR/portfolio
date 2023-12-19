@@ -81,13 +81,16 @@ If you are a founder or engineer looking to get your smart contract protocol aud
 
 ### November 2023
 
-- [TitanX - Staking, second review](./reports/solo/TitanX-Security-Review-2.pdf)
-- BetBitX - Vaults
-- HyperCycle - ERC1155 Revenue Sharing
+- Merchant Moe - DEX, Staking & Voting Escrow
 - SmarDex - AMM & Yield Farm, second review
+- HyperCycle - ERC1155 Revenue Sharing
+- [TitanX - Staking, second review](./reports/solo/TitanX-Security-Review-2.pdf)
 
 ### December 2023
 
+- Euler - Vaults Connector
+- Deus Finance - Migration
+- Merchant Moe - Factory, Staking & Vesting, second review
 - Undisclosed protocol - Lottery
 - Kreatorhood - Vesting
 
