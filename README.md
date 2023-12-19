@@ -34,6 +34,7 @@ If you are a founder or engineer looking to get your smart contract protocol aud
 ### April 2023
 
 - [SmarDex - AMM & Yield Farm](./reports/team/paladin/co/SmarDex-Security-Review.pdf)
+- Dream Finance - ICO
 - [WINR - Staking & Token Migration](./reports/team/paladin/co/WINR-Security-Review.pdf)
 - [Aori - Options Margin Trading](./reports/solo/Aori-Security-Review.pdf)
 
@@ -51,6 +52,7 @@ If you are a founder or engineer looking to get your smart contract protocol aud
 - [Schwap - Orderbook & Staking](./reports/solo/Schwap-Security-Review.pdf)
 - [TraderJoe - Auto Pools](./reports/team/paladin/co/TraderJoe-Security-Review.pdf)
 - [Aelin - Fundraising, second review](./reports/team/sub7/Aelin-Security-Review-2.pdf)
+- Aori - Fully Collateralized Options Trading & Orderbook, second review
 
 ### July 2023
 
