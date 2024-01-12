@@ -1,4 +1,4 @@
-# George's smart contract security work
+# Hunter Security - Smart Contract Security Audits
 
 ## Table of contents
 
@@ -13,11 +13,13 @@
 
 ## Introduction
 
-George Hunter is an independent security researcher experienced in Solidity smart contract auditing and bug hunting. Having conducted over 40 solo and team smart contract security reviews, he consistently strives to provide top-quality security auditing services. He also serves as a lead smart contract auditor at Paladin Blockchain Security, where he has been involved in security audits for notable clients such as **LayerZero**, **TraderJoe**, **SmarDex**, and other leading protocols.
+As an industry-leading team of security researchers, we specialize in providing premium smart contract auditing services to DeFi protocols. Our proven track record includes collaborations with companies such as Yearn, Euler, and Ambire.
+
+Having conducted over 50 security audits and uncovered tens of live smart contract vulnerabilities, our team always strives to exceed protocol’s expectations by delivering top-notch quality security assessments.
 
 ## Book an audit
 
-If you are a founder or engineer looking to get your smart contract protocol audited by a top-notch solo security researcher or a team of expert researchers, you can contact me on [Twitter](https://twitter.com/georgehntr), [Telegram](https://t.me/georgehntr), or [Discord](https://discordapp.com/users/451149166782185483) to discuss your needs and help you secure your project.
+If you are a founder or an engineer looking to get your smart contract protocol audited by our team of top-notch security experts, you can contact us on [Twitter](https://twitter.com/georgehntr), [Telegram](https://t.me/georgehntr), or [Discord](https://discordapp.com/users/451149166782185483) to discuss your needs and help you secure your project.
 
 ## Engagements
 
@@ -108,7 +110,7 @@ If you are a founder or engineer looking to get your smart contract protocol aud
 
 ## Testimonials
 
-What previous clients and fellow auditors say about my work:
+What previous clients and fellow auditors say about our work:
 
 <p align="center">
   <img src="https://github.com/gogotheauditor/audits/assets/94860638/7c3372a5-dd97-44c9-bc3b-cdc223482b0c" width="250"/>
