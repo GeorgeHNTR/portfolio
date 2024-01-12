@@ -92,7 +92,7 @@ If you are a founder or an engineer looking to get your smart contract protocol 
 
 ### December 2023
 
-- Euler - Ethereum Vault Connector
+- [Euler - Ethereum Vault Connector](./reports/team/@deadrosesxyz/Euler-EVC-Security-Review.pdf)
 - Deus Finance - Migration
 - [Merchant Moe - Factory, Staking & Vesting, second review](./reports/team/paladin/lead/MerchantMoe-Security-Review.pdf)
 - Singularity - OFT tokens
