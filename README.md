@@ -51,7 +51,7 @@ If you are a founder or an engineer looking to get your smart contract protocol 
 ### June 2023
 
 - [Ghast Protocol - Lending, Borrowing & Staking, second review](./reports/team/paladin/co/Ghast-Security-Review.pdf)
-- [Schwap - Orderbook & Staking](./reports/solo/Schwap-Security-Review.pdf)
+- [Schwap - Orderbook & Staking](./reports/team/@deadrosesxyz/Schwap-Security-Review.pdf)
 - [TraderJoe - Auto Pools](./reports/team/paladin/co/TraderJoe-Security-Review.pdf)
 - [Aelin - Fundraising, second review](./reports/team/sub7/Aelin-Security-Review-2.pdf)
 - Aori - Fully Collateralized Options Trading & Orderbook, second review
@@ -66,7 +66,7 @@ If you are a founder or an engineer looking to get your smart contract protocol 
 
 ### August 2023
 
-- [Project TXA - Cross-Chain Orders Settlement](./reports/solo/Project-TXA-Security-Review.pdf)
+- [Project TXA - Cross-Chain Orders Settlement](./reports/team/@deadrosesxyz/Project-TXA-Security-Review.pdf)
 - [Pepe - NFT Staking](./reports/solo/Pepe-Security-Review.pdf)
 - [Bera Market - NFT Lending & Borrowing](./reports/solo/NTLC-Security-Review.pdf)
 - [Radiate Protocol - Vault, second review](./reports/team/paladin/co/Radiate-Security-Review.pdf)
