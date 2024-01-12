@@ -83,18 +83,23 @@ If you are a founder or engineer looking to get your smart contract protocol aud
 
 ### November 2023
 
-- Merchant Moe - DEX, Staking & Voting Escrow
-- SmarDex - AMM & Yield Farm, second review
-- HyperCycle - ERC1155 Revenue Sharing
+- [Merchant Moe - DEX, Staking & Voting Escrow](./reports/team/paladin/co/MerchantMoe-Security-Review.pdf)
+- [SmarDex - AMM & Yield Farm, second review](./reports/team/paladin/co/SmarDex-Security-Review-2.pdf)
+- [HyperCycle - ERC1155 Revenue Sharing](./reports/team/paladin/lead/HyperCycle-Security-Review.pdf)
 - [TitanX - Staking, second review](./reports/solo/TitanX-Security-Review-2.pdf)
 
 ### December 2023
 
-- Euler - Vaults Connector
+- Euler - Ethereum Vault Connector
 - Deus Finance - Migration
-- Merchant Moe - Factory, Staking & Vesting, second review
+- [Merchant Moe - Factory, Staking & Vesting, second review](./reports/team/paladin/lead/MerchantMoe-Security-Review.pdf)
+- Singularity - OFT tokens
+
+### January 2024
+
+- Ambire - Smart Wallet, ERC4337
 - Undisclosed protocol - Lottery
-- Kreatorhood - Vesting
+- Kreatorhood - Vesting, second review
 
 ## Bug bounty
 
