@@ -102,6 +102,8 @@ If you are a founder or an engineer looking to get your smart contract protocol 
 - Ambire - Smart Wallet, ERC4337
 - Undisclosed protocol - Lottery
 - Kreatorhood - Vesting, second review
+- DragonX - Staking
+- ERC-6492 - Signature Validation
 
 ## Bug bounty
 
